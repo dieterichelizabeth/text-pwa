@@ -94,13 +94,13 @@ View in the browser at `http://localhost:3000/`
 
 - [Webpack PWA Manifest plugin documentation.](https://www.npmjs.com/package/webpack-pwa-manifest)
 
-<!-- Implement asset caching -->
+<!-- Implement asset caching src-sw.js -->
 
 - [Workbox: Changing the Cache Used by a Strategy](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#changing-the-cache-used-by-a-strategy)
 
 - [Workbox Cacheing Strategies](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#using-strategies)
 
-<!-- Add and configure workbox plugins for a service worker. -->
+<!-- Add and configure workbox plugins for a service worker webpack.config.js-->
 
 - [Workbox docs on generating a service worker with webpack using GenerateSW](https://developers.google.com/web/tools/workbox/guides/generate-service-worker/webpack)
 - [Workbox docs on configuring GenerateSW](https://developer.chrome.com/docs/workbox/reference/workbox-webpack-plugin/#type-GenerateSWConfig)
@@ -110,3 +110,13 @@ View in the browser at `http://localhost:3000/`
 - [Interact with service workers with Chrome DevTools](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers#interact_with_service_workers_in_the_browser)
 
 - [Workbox docs on InjectManifest](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin#injectmanifest_plugin)
+
+<!-- Handle Button Intallation -->
+
+- [Blog Make it Installable: PWA's](https://web.dev/codelab-make-installable/)
+
+- [BeforeInstallPromptEvent.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/BeforeInstallPromptEvent/prompt)
+
+- [Window: appinstalled event](https://developer.mozilla.org/en-US/docs/Web/API/Window/appinstalled_event)
+
+- [window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
