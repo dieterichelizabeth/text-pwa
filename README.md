@@ -93,3 +93,20 @@ View in the browser at `http://localhost:3000/`
 <!-- Add and configure workbox plugins manifest file in webpack.config.js -->
 
 - [Webpack PWA Manifest plugin documentation.](https://www.npmjs.com/package/webpack-pwa-manifest)
+
+<!-- Implement asset caching -->
+
+- [Workbox: Changing the Cache Used by a Strategy](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#changing-the-cache-used-by-a-strategy)
+
+- [Workbox Cacheing Strategies](https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#using-strategies)
+
+<!-- Add and configure workbox plugins for a service worker. -->
+
+- [Workbox docs on generating a service worker with webpack using GenerateSW](https://developers.google.com/web/tools/workbox/guides/generate-service-worker/webpack)
+- [Workbox docs on configuring GenerateSW](https://developer.chrome.com/docs/workbox/reference/workbox-webpack-plugin/#type-GenerateSWConfig)
+
+- [Simulate offline behavior with Chrome DevTools](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers#simulate_offline_behavior)
+
+- [Interact with service workers with Chrome DevTools](https://developers.google.com/web/ilt/pwa/tools-for-pwa-developers#interact_with_service_workers_in_the_browser)
+
+- [Workbox docs on InjectManifest](https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin#injectmanifest_plugin)

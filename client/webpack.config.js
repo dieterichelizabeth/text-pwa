@@ -3,8 +3,6 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 const { InjectManifest } = require("workbox-webpack-plugin");
 
-// TODO: Add and configure workbox plugins for a service worker.
-
 module.exports = () => {
   return {
     mode: "development",
@@ -21,6 +19,10 @@ module.exports = () => {
         // Load a custom template (lodash by default)
         template: "./index.html",
         title: "J.A.T.E",
+      }),
+      new InjectManifest({
+        swSrc: "./src-sw.js",
+        swDest: "src-sw.js",
       }),
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
