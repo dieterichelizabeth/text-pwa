@@ -82,6 +82,14 @@ Navigate back to the root directory and start the application(dev) `cd ..` `npm 
 
 View in the browser at `http://localhost:3000/`
 
+## Test Client
+
+Install the packages `npm i`
+
+Navigate to the client and run build `cd client` `npm run build`
+
+Open the `dist/index.html` in the browser
+
 ## Documentation
 
 <!-- Add CSS loaders and babel to webpack webpack.config.js -->
