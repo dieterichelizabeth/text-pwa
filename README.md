@@ -70,4 +70,26 @@ THEN I should have proper build scripts for a webpack application
 
 ---
 
-Error: ENOENT: no such file or directory, stat '/Users/elizabethdieterich/Bootcamp/19/text-pwa/server/client/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/Users/elizabethdieterich/Bootcamp/19/text-pwa/server/client/dist/index.html' (no index.html in the dist folder)
+
+## Run locally
+
+Install the packages `npm i`
+
+Navigate to the client and run build `cd client` `npm run build`
+
+Navigate back to the root directory and start the application(dev) `cd ..` `npm run start:dev`
+
+View in the browser at `http://localhost:3000/`
+
+## Documentation
+
+<!-- Add CSS loaders and babel to webpack webpack.config.js -->
+
+- [Css-loader Webpack Docs](https://webpack.js.org/loaders/css-loader/)
+- [HTML Webpack Plugin](https://github.com/jantimon/html-webpack-plugin)
+- [Babel Loader Webpack Docs](https://webpack.js.org/loaders/babel-loader/)
+
+<!-- Add and configure workbox plugins manifest file in webpack.config.js -->
+
+- [Webpack PWA Manifest plugin documentation.](https://www.npmjs.com/package/webpack-pwa-manifest)
